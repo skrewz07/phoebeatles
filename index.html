@@ -5,6 +5,8 @@
         margin: 0;
         font-size: 28px;
         font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-image: url("assets/background/blackboard.png");
       }
 
       .header {
@@ -43,25 +45,46 @@
         border-radius: 50%;
       }
 
-      .linkbar {
+      .socials {
         text-align: center;
       }
 
-      .linkbar a {
+      a.socials {
         display: inline-block;
-        text-align: center;
-        padding: 14px 14px;
+        width: 32px;
+        height: 32px;
+        background-size: cover;
       }
 
-      .linkbar a .twitch {
-        background-image: url("assets/icons/twitch.png");
+      a.twitch {
+        background: url("assets/icons/twitch.png");
+      }
+
+      a.youtube {
+        background: url("assets/icons/youtube.png");
+      }
+
+      a.twitter {
+        background: url("assets/icons/twitter.png");
+      }
+
+      a.tiktok {
+        background: url("assets/icons/tiktok.png");
+      }
+
+      a.instagram {
+        background: url("assets/icons/instagram.png");
+      }
+
+      a.patreon {
+        background: url("assets/icons/patreon.png");
       }
     </style>
   </head>
   
   <body>
     <div class="header">
-      <h2>Phoebeatles</h2>
+      <h1>PHOEBEATLES</h1>
       <img src="assets/covers/front.png">
       <p>10.09.2025</p>
     </div>
@@ -81,10 +104,14 @@
       <div id="artists">
         <div class="artist" id="annamaja">
           <img class="profile" src="assets/streamers/annamaja.png">
-          <a class="name" href="https://www.twitch.tv/annamaja">annamaja</a>
-          <div class="linkbar">
-            <a class="twitch" href="https://www.twitch.tv/annamaja"></a>
-            <a class="youtube" href="https://www.youtube.com/@AnnaMajaOfficial"></a>
+          <a class="name" href="https://www.twitch.tv/annamaja" target="_blank">annamaja</a>
+          <div class="socials">
+            <a class="socials" class="twitch" href="https://www.twitch.tv/annamaja" target="_blank"></a>
+            <a class="socials" class="youtube" href="https://www.youtube.com/@AnnaMajaOfficial" target="_blank"></a>
+            <a class="socials" class="instagram" href="https://www.instagram.com/amkazarian" target="_blank"></a>
+            <a class="socials" class="twitter" href="https://twitter.com/AMKazarian" target="_blank"></a>
+            <a class="socials" class="tiktok" href="https://www.tiktok.com/@amkazarian" target="_blank"></a>
+            <a class="socials" class="patreon" href="https://www.patreon.com/annamaja" target="_blank"></a>
           </div>
           <p>When people walk past Anna-Maja in public, it's not a question of whether or not they recognise her, but rather what they recognise her from, because this Renaissance woman has done everything. She's one of the Netherlands' top women players (if you can name a tournament, Anna-Maja's probably won it), she starred on The Genius (a Dutch reality TV show), and she hosts one of the most educational chess channels on Twitch. A little less well known is the fact that Anna-Maja used to perform as a singer when she was younger, and has coupled her singing and chess talents before - just as Hasselhoff brought down the Berlin Wall, Anna-Maja's <a href="https://www.youtube.com/watch?v=z1wtjgc5rzU">previous parody</a> fixed chess.com's server issues.
 </p>
