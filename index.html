@@ -64,8 +64,16 @@
         color: black;
       }
 
+      #backcover {
+        display: block;
+      }
+
       .content {
         padding: 10%;
+      }
+
+      .artist {
+        margin-bottom: 32px;
       }
 
       .profile {
@@ -111,13 +119,18 @@
       a.patreon {
         background: url("assets/icons/patreon.png");
       }
+
+      a.spotify {
+        background: url("assets/icons/spotify.png");
+      }
+      
     </style>
   </head>
   
   <body>
     <div class="header">
       <h1>PHOEBEATLES</h1>
-      <img src="assets/covers/front.png" alt="Front cover of the album, depicting the singers on Abbey Road with a checkerboard crossing">
+      <a href="#album"><img src="assets/covers/front.png" alt="Front cover of the album, depicting the singers on Abbey Road with a checkerboard crossing"></a>
       <p>10.09.2025</p>
     </div>
 
@@ -193,7 +206,7 @@
             <a class="socials twitter" href="https://twitter.com/jesse_feb" target="_blank"></a>
             <a class="socials tiktok" href="https://www.tiktok.com/@jesse_feb" target="_blank"></a>
           </div>
-          <p>Stereotypes suggest chess masters are serious and bookish folks, but two-time African Chess Champion Jesse February shows that is not always the case. While the South African is devoted to chess - she is on the road to the WGM title, and is currently setting up a chess club in Saudi Arabia - she also has a flair for <a href="https://youtube.com/shorts/k6vF04nbsaE" target="_blank">hilarious content creation</a>, as one would expect from the self-declared Queen of the Memes. Finally, Jesse's incredible vocal talent - both for singing and for accents - make her the perfect fit for this project, so we're so glad she said yes!</p>
+          <p>Stereotypes suggest chess masters are serious and bookish folks, but two-time African Chess Champion Jesse February shows that is not always the case. While the South African is devoted to chess - she is on the road to the WGM title, and is currently setting up a chess club in Saudi Arabia - she also has a flair for <a href="https://youtube.com/shorts/k6vFO4nbsaE" target="_blank">hilarious content creation</a>, as one would expect from the self-declared Queen of the Memes. Finally, Jesse's incredible vocal talent - both for singing and for accents - make her the perfect fit for this project, so we're so glad she said yes!</p>
         </div>
 
         <div class="artist" id="joebruin">
@@ -218,7 +231,7 @@
             <a class="socials instagram" href="https://www.instagram.com/imlivharris" target="_blank"></a>
             <a class="socials twitter" href="https://twitter.com/livharrismusic" target="_blank"></a>
             <a class="socials tiktok" href="https://www.tiktok.com/@livharrisblah" target="_blank"></a>
-            <a class="socials spotify" href="https://open.spotify.com/artist/65lZRTNk0g1FdoZQCpgaP8=PZos60pYSnG5hS92BohUPA" target="_blank"></a>
+            <a class="socials spotify" href="https://open.spotify.com/artist/65lZRTNk0g1FdoZQCpgaP8" target="_blank"></a>
           </div>
           <p>Asking Liv Harris to be on your parody album is a bit like asking Magnus Carlsen to play for your local chess club, but by some miracle, she agreed! If there's only one music streamer you follow, make sure it's this singer-songwriter from London, who has been entertaining her Twitch audience for over seven years. Liv's streams are filled with awesome originals and chilling covers, with the smoothest of segues to tie them all together, but what really sets her apart is the infectious enthusiasm and joy she brings - I guarantee that tuning into her channel will leave you <a href="https://www.youtube.com/watch?v=gH3V69lPeWY" target="_blank">feeling good</a>.</p>
         </div>
@@ -253,7 +266,7 @@
 
         <h2>The Songs</h2>
         
-        <a href="assets/booklet/booklet.pdf" target="_blank"><img src="assets/covers/back.png" alt="Back cover of the album with the track listing"></a>
+        <a href="assets/booklet/booklet.pdf" target="_blank"><img id="backcover" src="assets/covers/back.png" alt="Back cover of the album with the track listing"></a>
       </div>
 
     </div>
